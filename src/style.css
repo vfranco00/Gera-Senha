@@ -46,3 +46,42 @@ body {
     padding: 20px 0;
     text-align: center;
   }
+
+  .rangePassword {
+    appearance: none;
+    width: 100%;
+    height: 3px;
+    background: #93b7be;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    opacity: .9;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    transition: opacity .2s;
+  }
+
+  #labelNumberInput {
+    background-color: #505050;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 3vh;
+    border-radius: 5px;
+  }
+
+  #numberPassword {
+    background-color: #141683;
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 3vh;
+    border-radius: 5px;
+  }

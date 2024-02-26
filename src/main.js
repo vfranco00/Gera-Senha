@@ -3,10 +3,21 @@ import "./style.css";
 
 const passwordBtn = document.querySelector('button');
 const passwordDisplay = document.querySelector('h2');
-const copyPassword = document.querySelector('.password');
+const copyPassword = document.querySelector('#copyButton');
+const passwordLgthRange = document.querySelector('input');
+const passwordLgtNumber = document.querySelector('#numberPassword');
 
 passwordBtn.addEventListener('click', () => {
-    passwordDisplay.innerHTML = nanoid();
+    var tempLength = passwordLgthRange.value;
+    // passwordLgtNumber = passwordLgthRange.value;
+    console.log(tempLength);
+    passwordDisplay.innerHTML = nanoid(tempLength);
+});
+
+passwordLgthRange.addEventListener('click', () => {
+    var tempLengthRange = passwordLgthRange.value;
+    console.log(tempLengthRange);
+    passwordLgtNumber.value = tempLengthRange; 
 });
 
 copyPassword.addEventListener('click', () => {
@@ -23,7 +34,4 @@ copyPassword.addEventListener('click', () => {
     // Remove o elemento temporário da página
     document.body.removeChild(tempInput);
     alert("Password copied");
-})
-
-
-
+});
