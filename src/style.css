@@ -63,7 +63,7 @@ body {
 
   #labelNumberInput {
     background-color: #505050;
-    color: white;
+    color: #141683;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     display: flex;
@@ -72,6 +72,9 @@ body {
     justify-content: center;
     min-height: 3vh;
     border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 15px;
   }
 
   #numberPassword {
