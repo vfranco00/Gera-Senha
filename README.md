@@ -17,11 +17,13 @@ Certifique-se de ter o Node.js e o npm instalados em seu sistema. Você também 
 1. Clone este repositório para o seu ambiente local.
 2. Navegue até o diretório do projeto.
 3. Instale as dependências usando o seguinte comando:
-   ```shell {
-  npm install
-  }
+   ```shell
+   npm install
+   ```
 4. Inicie o servidor de desenvolvimento usando o seguinte comando:
-
+   ```shell
+   npm run dev
+   ```
 5. Abra o navegador e acesse `http://localhost:3000` para visualizar o gerador de senha.
 
 ## Exemplo de Uso
